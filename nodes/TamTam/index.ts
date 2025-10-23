@@ -1,0 +1,1 @@
+export { TamTam } from './TamTam.node';

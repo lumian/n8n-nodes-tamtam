@@ -1,0 +1,10 @@
+src/
+icons/
+*.ts
+!*.d.ts
+tsconfig.json
+gulpfile.js
+node_modules/
+.npmignore
+.eslintrc.js
+.prettierrc

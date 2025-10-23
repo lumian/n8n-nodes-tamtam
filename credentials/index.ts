@@ -1,5 +1,1 @@
-import { TamTamApi } from './TamTamApi.credentials';
-
-export {
-    TamTamApi,
-};
+export { TamTamApi } from './TamTamApi.credentials';

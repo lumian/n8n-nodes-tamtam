@@ -25,7 +25,7 @@
   },
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
@@ -44,7 +44,13 @@
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
-    "@types/request-promise-native": "~1.0.15",
+    "@types/request": "^2.48.8",
+    "@types/request-promise-native": "^1.0.18",
+    "gulp": "^4.0.2",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-zip": "^6.0.0",
+    "n8n-core": "*",
+    "n8n-workflow": "*",
     "typescript": "~4.8.4"
   },
   "peerDependencies": {
